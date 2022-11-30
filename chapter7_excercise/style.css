@@ -1,0 +1,114 @@
+/*********/
+/* common*/
+/*********/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 90%; /* 横幅90% */
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .heading {
+  /* headerタグ内のheadingクラスにのみ反映される */
+  font-size: 32px;
+}
+
+/**************/
+/* main-vis   */
+/**************/
+
+.main-visual {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.main-visual-text {
+  width: 100%;
+  height: 20px; /* 親の高さに揃える */
+  padding: 15px 15px;
+  color: gray; /* 文字色を白に変更 */
+}
+
+
+/*********/
+/* main  */
+/*********/
+
+main {
+  width: 840px; /* 横幅800px */
+  padding: 50px 0; /* 上下に70px、左右に0pxの内側余白 */
+}
+
+
+.blog-item-top {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.blog-item-main {
+  padding: 30px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.blog-text {
+  padding: 25px 0 0 30px;
+}
+
+.blog-text-heading {
+  padding-bottom: 15px;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.sidebar {
+  width: 230px;
+}
+
+
+
+/**********/
+/* footer */
+/**********/
+
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
